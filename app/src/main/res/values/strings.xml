@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Trab4</string>
+    <string name="app_name">Voltar</string>
+    <string name="string_back">Voltar</string>
 </resources>

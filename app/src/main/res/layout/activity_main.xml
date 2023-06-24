@@ -7,27 +7,36 @@
         android:id="@+id/searchLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal"
-        android:padding="16dp"
-        android:background="#FFFFFF">
+        android:padding="2dp">
 
         <EditText
             android:id="@+id/searchEditText"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="Buscar"
             android:inputType="text"
-            android:background="#E0E0E0"
-            android:textColor="#000000" />
+            />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/searchButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buscar"
-            android:background="#FF4081"
-            android:textColor="#FFFFFF" />
+            android:background="@drawable/et_bg"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:text="Download"
+            />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
 
 </RelativeLayout>
