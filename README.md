@@ -1,15 +1,15 @@
 # Wallpaper Search App
 
-Este é um aplicativo Android simples que permite aos usuários pesquisar imagens e definir uma delas como papel de parede do dispositivo. O aplicativo foi desenvolvido como parte de um projeto para a disciplina de Desenvolvimento para Dispositivos Móveis em uma faculdade.
+Este é um aplicativo Android simples que permite aos usuários pesquisar imagens e definir como papel de parede do dispositivo. O aplicativo foi desenvolvido como parte de um projeto para a disciplina de Desenvolvimento para Dispositivos Móveis em uma faculdade.
 
 ## Funcionalidades
 O aplicativo possui duas telas principais:
 
 ### Tela Principal (MainActivity)
-A tela principal apresenta um campo de texto onde o usuário pode inserir um termo de busca.
-Há um botão de pesquisa que permite iniciar a busca com base no termo inserido.
-Se o campo de busca estiver vazio e o usuário pressionar o botão de pesquisa, será exibida uma mensagem de aviso solicitando que um termo de busca seja inserido.
-Quando um termo de busca válido é inserido e o botão de pesquisa é pressionado, o aplicativo passa para a próxima tela (WallpaperActivity) e envia o termo de busca como um parâmetro.
+A tela principal apresenta um campo de texto onde o usuário pode inserir um link.
+Há um botão de pesquisa que permite iniciar o download com base no termo inserido.
+Se o campo de busca estiver vazio e o usuário pressionar o botão de download, será exibida uma mensagem de aviso solicitando que um link seja inserido.
+Quando um link é inserido e o botão de donwload é pressionado, o aplicativo passa para a próxima tela (WallpaperActivity) e envia o link parâmetro.
 
 ### Tela do Papel de Parede (WallpaperActivity)
 
@@ -35,8 +35,8 @@ O aplicativo foi desenvolvido usando a plataforma Android e a linguagem de progr
 - Glide: é uma biblioteca de carregamento e exibição de imagens que facilita o carregamento de imagens de forma eficiente.
 
 ## Como usar o aplicativo
-1. Insira um termo de busca no campo de texto na tela principal.
-2. Pressione o botão de pesquisa para iniciar a busca.
-3. Aguarde enquanto a imagem correspondente ao termo de busca é carregada.
+1. Insira um link no campo de texto na tela principal.
+2. Pressione o botão de download para iniciar o download.
+3. Aguarde enquanto a imagem correspondente ao link é carregada.
 4. Quando a imagem é exibida na tela, você pode pressionar o botão "Definir Papel de Parede" para definir a imagem como papel de parede do dispositivo.
 5. Se a definição do papel de parede for bem-sucedida, uma mensagem de sucesso será exibida. Caso contrário, uma mensagem de erro será exibida.
